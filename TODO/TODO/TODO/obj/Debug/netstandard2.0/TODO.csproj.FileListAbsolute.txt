@@ -1,0 +1,14 @@
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/bin/Debug/netstandard2.0/TODO.deps.json
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/bin/Debug/netstandard2.0/TODO.dll
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/bin/Debug/netstandard2.0/ref/TODO.dll
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/bin/Debug/netstandard2.0/TODO.pdb
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/obj/Debug/netstandard2.0/TODO.csproj.AssemblyReference.cache
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/obj/Debug/netstandard2.0/TODO.AssemblyInfoInputs.cache
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/obj/Debug/netstandard2.0/TODO.AssemblyInfo.cs
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/obj/Debug/netstandard2.0/TODO.csproj.CoreCompileInputs.cache
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/obj/Debug/netstandard2.0/TODO.dll
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/obj/Debug/netstandard2.0/ref/TODO.dll
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/obj/Debug/netstandard2.0/TODO.pdb
