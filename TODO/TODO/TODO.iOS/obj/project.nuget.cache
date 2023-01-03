@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mmsBjYBp0jaek3ss99Qcsacl9cUqS0aH5TcZgr3olZDlrMMLBbRAEw5ggCyqgdeDs+8tvAe385StTsJ0kukw/A==",
+  "dgSpecHash": "fRpMbFslTh9bAUhkQCWHqafZvTvyRaTWrCJONiTM2zKQpFYU+WtGCYzzfRF5HVkX2es7k74VHwMhBptcSAZXkg==",
   "success": true,
   "projectFilePath": "/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/TODO.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/przemekprzywara/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/przemekprzywara/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
-    "/Users/przemekprzywara/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "/Users/przemekprzywara/.nuget/packages/xamarin.essentials/1.7.4/xamarin.essentials.1.7.4.nupkg.sha512",
+    "/Users/przemekprzywara/.nuget/packages/xamarin.forms/5.0.0.2545/xamarin.forms.5.0.0.2545.nupkg.sha512"
   ],
   "logs": []
 }

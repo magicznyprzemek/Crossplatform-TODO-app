@@ -1,24 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TODO.MainPage">
+             xmlns:ViewModels="clr-namespace:TODO.ViewModels"
+             x:Class="TODO.MainPage"
+             BackgroundColor="DimGray">
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+    <ContentPage.BindingContext>
+        <ViewModels:MainPageViewModel/>
+    </ContentPage.BindingContext>
+    
+    <StackLayout BackgroundColor="Transparent">
+        <Label Text="//TODO" TextColor="DarkOrange" FontAttributes="Italic" FontSize="80" VerticalOptions="End" HorizontalTextAlignment="Center"></Label>
+        <Frame Margin="3, 5,3,0" BackgroundColor="Gray" CornerRadius="30" BorderColor="DarkGray"  HasShadow="True">
+            <StackLayout Orientation="Horizontal">
+                <Entry  Text="{Binding DesText}" BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" FontAttributes="Bold" HorizontalTextAlignment="Start" TextColor="Wheat"></Entry>
+                <Button  Command="{Binding AddTask}" Text="+"  FontAttributes="Bold" FontSize="30"   WidthRequest="47"  HorizontalOptions="End" TextColor="Red" BorderColor="Black" BorderWidth="2" CornerRadius="24" BackgroundColor="DimGray"></Button>
+            </StackLayout>
         </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+        <ListView ItemsSource="{Binding Tasks}"
+                  BackgroundColor="Transparent"
+                  RefreshControlColor="Transparent"
+                 SelectionMode="None"
+                  HasUnevenRows="True">
+             <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                         <Frame Margin="3, 5,3,3" BackgroundColor="Gray"  CornerRadius="30" BorderColor="DarkGray" HasShadow="True">
+                            <StackLayout Orientation="Horizontal"
+                                         HorizontalOptions="Fill"
+                                         Padding="10,5"
+                                         >
+                            
+                                 <Label Text="{Binding Description}"
+                                        HorizontalOptions="FillAndExpand" />
+                               
+                                <Switch
+                                    IsToggled="{Binding IsCompleted}"
+                                    HorizontalOptions="End"
+                                    ThumbColor="DarkOrange"
+                                    OnColor="DimGray"
+                                    
+                                    ></Switch>
+                                  
+                            </StackLayout>
+                         </Frame>
+                             
+                        </ViewCell>
+                    </DataTemplate>
+                    </ListView.ItemTemplate>
+                                   
+
+
+
+
+        </ListView>
+
+  
+        
     </StackLayout>
 
 </ContentPage>

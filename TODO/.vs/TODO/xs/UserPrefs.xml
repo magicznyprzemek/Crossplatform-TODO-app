@@ -1,27 +1,31 @@
 ﻿<Properties StartupConfiguration="{B1A73963-0D66-4941-8731-7E866EB75177}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.TODO.Android FirstBuild="True" PreferredExecutionTarget="Android.SelectDevice" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TODO/TODO/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TODO/TODO/ViewModels/MainPageViewModel.cs">
     <Files>
-      <File FileName="TODO/TODO/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="TODO/TODO/MainPage.xaml" Line="29" Column="73" />
+      <File FileName="TODO/TODO/ViewModels/MainPageViewModel.cs" Line="40" Column="8" />
+      <File FileName="TODO/TODO/Task.cs" Line="9" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TODO" expanded="True">
             <Node name="TODO" expanded="True">
+              <Node name="ViewModels" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
             </Node>
+            <Node name="TODO.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.TODO.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.21678066-B414-45BB-834E-20636868DA61" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

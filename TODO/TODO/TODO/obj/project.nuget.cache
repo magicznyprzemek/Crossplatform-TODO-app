@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "L6Nkb2SukG9tNdPfwqUzN4dQeLufUHeRnSQxJUCWdAEEZLaFPZJ9qCBgw31rU81IN3Hqh3j/GMtftGbuHAoROQ==",
+  "dgSpecHash": "ZkQhJb2+nzKq+Y7WZz09LTCvfMlE7rCgyJf7+YU32e0gK+wOmObbLHOeTID8dObHr6htRgwhMUGYK4GhLwz9Bw==",
   "success": true,
   "projectFilePath": "/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO/TODO.csproj",
   "expectedPackageFiles": [
     "/Users/przemekprzywara/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/przemekprzywara/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/przemekprzywara/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/przemekprzywara/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
-    "/Users/przemekprzywara/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "/Users/przemekprzywara/.nuget/packages/xamarin.essentials/1.7.4/xamarin.essentials.1.7.4.nupkg.sha512",
+    "/Users/przemekprzywara/.nuget/packages/xamarin.forms/5.0.0.2545/xamarin.forms.5.0.0.2545.nupkg.sha512"
   ],
   "logs": []
 }

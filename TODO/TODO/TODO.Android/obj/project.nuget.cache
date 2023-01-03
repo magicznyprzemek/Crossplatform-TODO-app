@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cW6wPNEhcEbok8JlYEzl2BGeQnOcBTvmbiL7q2Iw3IZZlofqEe+foZRLQfskN0mwXUW1Kz9bZXcwMoFaMwDFzQ==",
+  "dgSpecHash": "cqH63izEKp99bHzWaUueeNCJMX0q9IK5TWAJOIzaKqI41SgSc292OAKxzh6gEVHlr9WMhi1qh/hY/DXDYA6Bcw==",
   "success": true,
   "projectFilePath": "/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.Android/TODO.Android.csproj",
   "expectedPackageFiles": [
@@ -58,8 +58,8 @@
     "/Users/przemekprzywara/.nuget/packages/xamarin.androidx.versionedparcelable/1.1.1.8/xamarin.androidx.versionedparcelable.1.1.1.8.nupkg.sha512",
     "/Users/przemekprzywara/.nuget/packages/xamarin.androidx.viewpager/1.0.0.8/xamarin.androidx.viewpager.1.0.0.8.nupkg.sha512",
     "/Users/przemekprzywara/.nuget/packages/xamarin.androidx.viewpager2/1.0.0.10/xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
-    "/Users/przemekprzywara/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
-    "/Users/przemekprzywara/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "/Users/przemekprzywara/.nuget/packages/xamarin.essentials/1.7.4/xamarin.essentials.1.7.4.nupkg.sha512",
+    "/Users/przemekprzywara/.nuget/packages/xamarin.forms/5.0.0.2545/xamarin.forms.5.0.0.2545.nupkg.sha512",
     "/Users/przemekprzywara/.nuget/packages/xamarin.google.android.material/1.4.0.2/xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "/Users/przemekprzywara/.nuget/packages/xamarin.google.guava.listenablefuture/1.0.0.2/xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],
