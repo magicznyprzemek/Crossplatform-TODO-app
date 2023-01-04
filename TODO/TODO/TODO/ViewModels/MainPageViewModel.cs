@@ -15,8 +15,9 @@ namespace TODO.ViewModels
         public MainPageViewModel()
         {
             TaskList = new ObservableCollection<Task>();
-          //  TaskList.Add(new Task { Description = "test123", IsCompleted = false });
             AddTask = new Command(OnIncrement);
+            Refresh = new Command(refresh);
+
             for (int i=0; i<1; i++)
             {
                 OnIncrement();
@@ -38,8 +39,6 @@ namespace TODO.ViewModels
 
         }
        
-
-
         public string DesText
         {
             get => LocalDescription;
@@ -51,14 +50,47 @@ namespace TODO.ViewModels
             }
         }
         public ICommand AddTask { get; }
+        public ICommand Refresh { get; }
+        void refresh()
+        {
+            ObservableCollection<Task> temp = new ObservableCollection<Task>();
+            IsRefreshing = true;
+            foreach (Task x in Tasks)
+            {
+                if(x.IsCompleted)
+                {
+                    temp.Add(x);
+                }
+            }
+            Tasks = temp;
+           
+            IsRefreshing = false;
+        }
+        private bool _isRefreshing = false;
+        public bool IsRefreshing
+        {
+            get { return _isRefreshing; }
+            set
+            {
+                _isRefreshing = value;
+                OnPropertyChanged(nameof(IsRefreshing));
+            }
+        }
 
         void OnIncrement()
         {
-            Tasks.Add(new Task { Description = LocalDescription, IsCompleted = true });
-            DesText = "";
-
+            if (LocalDescription.Length > 500)
+            {
+                App.Current.MainPage.DisplayAlert("Alert", $"you exceeded the character limit by {500-LocalDescription.Length}", "OK");
+            }
+            else
+            {
+                Tasks.Insert(0, (new Task { Description = LocalDescription, IsCompleted = true }));
+                DesText = "";
+            }
         }
 
+       
     }
 }
 

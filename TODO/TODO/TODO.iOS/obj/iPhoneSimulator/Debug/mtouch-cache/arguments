@@ -1,5 +1,5 @@
-# Version: 16.0.0.72 (release/6.0.4xx-xcode14: 6756a1146)
-/Library/Frameworks/Xamarin.iOS.framework/Versions/16.0.0.72/lib/mtouch/mtouch.exe \
+# Version: 16.1.1.27 (xcode14.1: 933c6c2c9)
+/Library/Frameworks/Xamarin.iOS.framework/Versions/16.1.1.27/lib/mtouch/mtouch.exe \
 	--debug \
 	--sgen-conc \
 	'/target-framework:Xamarin.iOS,Version=v1.0' \
