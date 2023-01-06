@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using Xamarin.Forms;
+using TODO.TasksManaging;
 
 namespace TODO.ViewModels
 {
@@ -15,18 +16,30 @@ namespace TODO.ViewModels
         public MainPageViewModel()
         {
             TaskList = new ObservableCollection<Task>();
+            try
+            {
+                Tasks = loadList();
+            }
+            catch { }
+
             AddTask = new Command(OnIncrement);
             Refresh = new Command(refresh);
 
-            for (int i=0; i<1; i++)
-            {
-                OnIncrement();
-            }
-            
         }
+        public void saveList()
+        {
+            TaskListSaver TEST = new TaskListSaver();
+            TEST.SaveTasks(Tasks);
+        }
+        public ObservableCollection<Task> loadList()
+        {
+            TaskListSaver TEST = new TaskListSaver();
 
+            return TEST.getList();
+        }
+           
 
-        string LocalDescription = "Nowy Task!";
+        string LocalDescription = "hello world!";
     
         public ObservableCollection<Task> Tasks
         {
@@ -35,7 +48,9 @@ namespace TODO.ViewModels
             {
                 TaskList = value;
                 OnPropertyChanged();
+                saveList();
             }
+
 
         }
        
@@ -65,6 +80,7 @@ namespace TODO.ViewModels
             Tasks = temp;
            
             IsRefreshing = false;
+            saveList();
         }
         private bool _isRefreshing = false;
         public bool IsRefreshing
@@ -82,12 +98,20 @@ namespace TODO.ViewModels
             if (LocalDescription.Length > 500)
             {
                 App.Current.MainPage.DisplayAlert("Alert", $"you exceeded the character limit by {500-LocalDescription.Length}", "OK");
+                
+            }
+            if (Tasks.Count >= 30)
+            {
+                App.Current.MainPage.DisplayAlert("Alert", $"You've reached the limit on the number of tasks", "OK");
+
             }
             else
             {
                 Tasks.Insert(0, (new Task { Description = LocalDescription, IsCompleted = true }));
                 DesText = "";
+                saveList();
             }
+            
         }
 
        

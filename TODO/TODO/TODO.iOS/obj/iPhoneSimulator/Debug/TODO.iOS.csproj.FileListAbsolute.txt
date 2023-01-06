@@ -61,3 +61,18 @@
 /Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/TODO.iOS.csproj.CopyComplete
 /Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/TODO.iOS.exe
 /Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/TODO.iOS.pdb
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/optimized/AppIcon 2.appiconset/Icon167.png
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/optimized/AppIcon 2.appiconset/Icon29.png
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/optimized/AppIcon 2.appiconset/Icon1024.png
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/optimized/AppIcon 2.appiconset/Icon60.png
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/optimized/AppIcon 2.appiconset/Icon76.png
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/optimized/AppIcon 2.appiconset/Icon58.png
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/optimized/AppIcon 2.appiconset/Icon40.png
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/optimized/AppIcon 2.appiconset/Icon80.png
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/optimized/AppIcon 2.appiconset/Icon87.png
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/optimized/AppIcon 2.appiconset/Icon120.png
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/optimized/AppIcon 2.appiconset/Icon152.png
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/optimized/AppIcon 2.appiconset/Icon20.png
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/optimized/AppIcon 2.appiconset/icon.png
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/optimized/AppIcon 2.appiconset/icon180.png
+/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll

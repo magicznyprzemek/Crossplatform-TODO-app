@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "q622lzOIdmpBiSTdpa0dj4VRWR9k9uNne/HY4UYCMzWQLPrumm49b8UvQYhBN60szNospFKXlZGw11tOfh2JJA==",
+  "dgSpecHash": "ywHm+O1xyE/KPm11YgPC+10iQqiGiXaE2UeJQZ/k9gfDVYD1BZvs+l3JUhM+609YIXLJ8S0ExyiTkTdJ3eZOOw==",
   "success": true,
   "projectFilePath": "/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.Android/TODO.Android.csproj",
   "expectedPackageFiles": [
+    "/Users/przemekprzywara/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",
     "/Users/przemekprzywara/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/przemekprzywara/.nuget/packages/xamarin.androidx.activity/1.2.4.1/xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "/Users/przemekprzywara/.nuget/packages/xamarin.androidx.annotation/1.2.0.1/xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",

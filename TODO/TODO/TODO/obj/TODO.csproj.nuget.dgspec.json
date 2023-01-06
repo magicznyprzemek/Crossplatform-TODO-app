@@ -44,6 +44,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.4, )"
@@ -63,7 +67,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/Users/przemekprzywara/Library/Caches/VisualStudio/17.0/MSBuild/59637_3/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/przemekprzywara/Library/Caches/VisualStudio/17.0/MSBuild/91592_3/RuntimeIdentifierGraph.json"
         }
       }
     }

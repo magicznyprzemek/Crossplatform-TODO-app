@@ -11,18 +11,18 @@
     </ContentPage.BindingContext>
     
     <StackLayout BackgroundColor="Transparent">
-        <Button ImageSource="gear.png" FontAttributes="Bold" Margin="10" HorizontalOptions="End" TextColor="DarkOrange" BackgroundColor="Gray" Padding="2" ></Button>
-        <Label Text="//TODO" TextColor="DarkOrange" FontAttributes="Italic" FontSize="80" VerticalOptions="End" HorizontalTextAlignment="Center"></Label>
+        <Label Margin="0,20,0,0" Text="//TODO" TextColor="DarkOrange" FontAttributes="Bold, Italic" FontSize="80" VerticalOptions="End" HorizontalTextAlignment="Center"></Label>
         <Frame Margin="3, 5,3,0" BackgroundColor="Gray" CornerRadius="30" BorderColor="DarkGray"  HasShadow="True">
             <StackLayout Orientation="Horizontal">
                 <Entry  Text="{Binding DesText}" BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" FontAttributes="Bold" HorizontalTextAlignment="Start" ></Entry>
-                <Button  Command="{Binding AddTask}" Text="+"  FontAttributes="Bold" FontSize="30"   WidthRequest="47"  HorizontalOptions="End" TextColor="Red" BorderColor="Black" BorderWidth="2" CornerRadius="24" BackgroundColor="DimGray"></Button>
+                <Button  Command="{Binding AddTask}" Padding="2,0,0,5" Text="+" FontAttributes="Bold" FontSize="35"   WidthRequest="47"  HorizontalOptions="End" VerticalOptions="Center" TextColor="DarkOrange" BorderColor="Black" BorderWidth="2" CornerRadius="22" BackgroundColor="DimGray"></Button>
             </StackLayout>
         </Frame>
         <ListView ItemsSource="{Binding Tasks}"
                   BackgroundColor="Transparent"
                   RefreshControlColor="Transparent"
                   SelectionMode="None"
+                  
                   IsPullToRefreshEnabled="True"
                   RefreshCommand="{Binding Refresh}"
                   IsRefreshing="{Binding IsRefreshing}" 
@@ -38,11 +38,13 @@
                                 <Label Text="•"
                                        FontSize="Large"
                                         FontAttributes="Bold"
+                                        
                                         VerticalTextAlignment="Center"
                                         HorizontalOptions="Start" />
 
-                                 <Label Text="{Binding Description}"
+                                 <Entry Text="{Binding Description}"
                                         FontAttributes="Bold"
+                                        BackgroundColor="Transparent"
                                         VerticalTextAlignment="Center"
                                         HorizontalOptions="FillAndExpand" />
                                

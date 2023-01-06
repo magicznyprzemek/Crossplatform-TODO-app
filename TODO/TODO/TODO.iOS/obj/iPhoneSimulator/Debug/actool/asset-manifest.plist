@@ -5,27 +5,46 @@
 	<key>com.apple.actool.compilation-results</key>
 	<dict>
 		<key>output-files</key>
-		<array>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon20x20@2x.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon20x20@2x~ipad.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon20x20@3x.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon20x20~ipad.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon29x29@2x.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon29x29@2x~ipad.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon29x29@3x.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon29x29~ipad.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon40x40@2x.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon40x40@2x~ipad.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon40x40@3x.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon40x40~ipad.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon60x60@2x.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon60x60@3x.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon76x76@2x~ipad.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon76x76~ipad.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcon83.5x83.5@2x~ipad.png</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/bundle/Assets.car</string>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/partial-info.plist</string>
-		</array>
+		<array/>
 	</dict>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/(null)[2d][icon180.png]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The app icon set "AppIcon" has an unassigned child.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][60x60][][][3x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "180.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][60x60][][][2x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "120.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+	</array>
 </dict>
 </plist>
