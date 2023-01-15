@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using Newtonsoft.Json;
@@ -26,7 +27,9 @@ namespace TODO.TasksManaging
         
         public ObservableCollection<Task> getList()
         {
-            string json = Xamarin.Essentials.Preferences.Get("list", "");
+            Task example = new Task { Description = "Hello World!", IsCompleted = true };
+            string exampleJSON = JsonConvert.SerializeObject(example);
+            string json = Xamarin.Essentials.Preferences.Get("list", exampleJSON);
             ObservableCollection<Task> items = JsonConvert.DeserializeObject<ObservableCollection<Task>>(json);
 
 

@@ -24,24 +24,24 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./AppIcon.appiconset/[][iphone][60x60][][][3x][][][]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The file "180.png" for the image set "AppIcon" does not exist.</string>
-			<key>type</key>
-			<string>Missing Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
 				<string>./AppIcon.appiconset/[][iphone][60x60][][][2x][][][]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The file "120.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][60x60][][][3x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/przemekprzywara/Desktop/folder programy/TODO-app/TODO/TODO/TODO.iOS/obj/iPhoneSimulator/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "180.png" for the image set "AppIcon" does not exist.</string>
 			<key>type</key>
 			<string>Missing Content</string>
 		</dict>

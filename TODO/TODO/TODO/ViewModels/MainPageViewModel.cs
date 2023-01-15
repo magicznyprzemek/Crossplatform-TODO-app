@@ -6,6 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using Xamarin.Forms;
 using TODO.TasksManaging;
+using System.Collections;
 
 namespace TODO.ViewModels
 {
@@ -100,7 +101,7 @@ namespace TODO.ViewModels
                 App.Current.MainPage.DisplayAlert("Alert", $"you exceeded the character limit by {500-LocalDescription.Length}", "OK");
                 
             }
-            if (Tasks.Count >= 30)
+            if (TaskList.Count>=30)
             {
                 App.Current.MainPage.DisplayAlert("Alert", $"You've reached the limit on the number of tasks", "OK");
 
